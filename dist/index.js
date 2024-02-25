@@ -1,11 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function X(obj) {
-    return obj.a + obj.b + obj.c;
-}
-function combine(objA, objB) {
-    return { ...objA, ...objB };
-}
-const objA = { a: 1 };
-const objB = { b: 2 };
-const resultObj = combine(objA, objB);
+require("./Declaration-Merging-1");
+require("./Declaration-Merging-2");
+require("./Declaration-Merging-3");
+require("./Declaration-Merging-4");
+require("./Declaration-Merging-5");
+require("./Declaration-Merging-6");
